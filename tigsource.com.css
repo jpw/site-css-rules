@@ -1,0 +1,71 @@
+/* ensure wide devices don't use these responsive fixes */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* this rule alone stops the RHS of the page being chopped */
+    #wrapper {
+        min-width: 350px;
+    }
+
+    /* default font bump */
+    #showcase {
+		font-size: 14px;
+    }
+    
+    /* rm background fluff & float in showcase */
+    #showcase .userinfo {
+        background: none;
+        clear: both;
+    	float: none;
+        width: 100%;
+    }
+
+    #showcase div.searchfield {
+    	padding: 0 10px;
+    }
+
+
+    /* nav fixes */
+    #mainbody span.pathway, #mainbody .nav, #mainbody td.nav, #mainbody td.middletext, .nav {
+        height:auto;
+        line-height: 100%;
+        margin: 10px;
+		font-size: 14px;
+    }
+
+    /* footer fix */
+    #wrapper div#footer-l {
+     padding-left: 6px;
+    }
+    
+    div#footer .smalltext {
+		font-size: 14px;
+	}
+
+    /* post area fixes */
+    FORM#quickModForm table td {
+        width:auto;
+		font-size: 30px !important;
+		line-height: 100%;
+    }
+    
+    FORM#quickModForm table td .smalltext {
+		font-size: 20px;
+    }
+    
+    FORM#quickModForm table tr td:first-child {
+    	width: 22%;
+		/* reduce long username ambiguity */
+		text-overflow: ellipsis;
+    }
+    FORM#quickModForm .avatar {
+    	width:85%;
+    }
+
+    FORM#quickModForm td.middletext {
+        min-width: 250px;
+		font-size: 30px;
+		padding: 0.3em;
+    }
+    
+}
+

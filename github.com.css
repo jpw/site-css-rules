@@ -1,0 +1,13 @@
+body, .markdown-body, .bg-white {
+    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    background-color: #f6f6f6 !important;
+}
+
+.pagehead, .repohead.experiment-repo-nav {
+    background-color: #f6f6f6
+}
+
+a, .btn-link {
+    filter: brightness(90%);
+}
+
