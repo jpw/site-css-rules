@@ -11,3 +11,12 @@ a, .btn-link {
     filter: brightness(90%);
 }
 
+.jump-to-suggestions-path .jump-to-suggestion-name {
+    max-width: 316px;
+}
+
+.header-search {
+  width: 450px;
+}
+
+
