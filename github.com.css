@@ -23,9 +23,9 @@ a, .btn-link {
 
 /* tooltip z-index */
 .btn-link:hover {
-  z-index: 99;
+  z-index: 98;
 }
 
 .tooltipped::after {
-  z-index: 111;
+  z-index: 99;
 }
