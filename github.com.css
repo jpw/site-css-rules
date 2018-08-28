@@ -1,22 +1,31 @@
+/* fonts like the good ol' days. Also don't set white bg's on things users look at a lot */
 body, .markdown-body, .bg-white {
-    font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-    background-color: #f6f6f6 !important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  background-color: #f6f6f6 !important;
 }
 
 .pagehead, .repohead.experiment-repo-nav {
-    background-color: #f6f6f6
+  background-color: #f6f6f6
 }
 
 a, .btn-link {
-    filter: brightness(90%);
+  filter: brightness(90%);
 }
 
+/* widen search bar */
 .jump-to-suggestions-path .jump-to-suggestion-name {
-    max-width: 316px;
+  max-width: 316px;
 }
 
 .header-search {
   width: 450px;
 }
 
+/* tooltip z-index */
+.btn-link:hover {
+  z-index: 99;
+}
 
+.tooltipped::after {
+  z-index: 111;
+}
