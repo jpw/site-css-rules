@@ -50,14 +50,14 @@ div[role="grid"] > div:nth-of-type(even) {
 }
 
 /* fix margin paddings */
-#js-repo-pjax-container > div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > div.d-flex.mb-3.px-3.px-md-4.px-lg-5,
-#js-repo-pjax-container > div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > nav {
+div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > div.d-flex.mb-3.px-3.px-md-4.px-lg-5,
+div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > nav {
     padding: 0 !important;
 }
 
 /* nav bg color */
-#js-repo-pjax-container > div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5,
-#js-repo-pjax-container > div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > nav {
+div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5,
+div.pagehead.repohead.hx_repohead.readability-menu.bg-gray-light.pb-0.pt-3.border-0.mb-5 > nav {
     background-color: #f6f6f6 !important;
 }
 
