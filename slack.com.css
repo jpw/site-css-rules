@@ -1,6 +1,7 @@
-body, .channel_header, #footer, #footer_msgs, #client_body:not(.onboarding):before {
+.c-message_kit__background {
     background-color: #f6f6f6
 }
+
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) {
     background: #fff;
 }
