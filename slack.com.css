@@ -6,11 +6,10 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
     background: #fff;
 }
 
-.p-channel_sidebar__channel_icon_prefix--comfy:not(.p-channel_sidebar__channel_icon_prefix--typing) {
-	border-radius: 0;
-}
-
-.p-channel_sidebar__user_avatar img.c-avatar__image, .p-channel_sidebar__mpim_avatars img.c-avatar__image {
+.p-channel_sidebar__user_avatar {
 	display: none;
 }
 
+.p-bookmarks_bar_container {
+	display:none;
+}
